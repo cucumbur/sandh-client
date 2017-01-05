@@ -1,0 +1,59 @@
+body {
+  margin: 0px;
+}
+
+
+.mainMenu {
+  background-color: hsl(26, 95%, 75%);
+  float: left;
+  clear: both;
+  height:500px;
+  width: 150px;
+
+
+}
+
+.statusBar {
+  margin-top: 0;
+  height: 150px;
+  width:650px;
+  background-color: hsl(210, 37%, 50%);
+}
+
+.statusBar > img {
+  margin-top: 0px;
+  float: left;
+}
+
+.statusBar > p {
+  margin-top: 0px;
+}
+
+.gameView {
+  background-color: green;
+  width: 500px;
+  height: 500px;
+  float: left;
+}
+
+.messageBar {
+  background-color: hsl(54, 95%, 66%);
+  height: 100px;
+  width: 650px;
+  clear: both;
+}
+
+.playersBar {
+  background-color: hsl(210, 37%, 50%);
+  height: 160px;
+  width:650px;
+  clear: both;
+}
+
+.playersBarPlayer {
+  float:left;
+}
+
+.playersBarPlayer > span {
+  display: block;
+}
